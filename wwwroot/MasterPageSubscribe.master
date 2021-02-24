@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageSubscribe.master.cs" Inherits="MasterPageSubscribe" %>
+<%@ Register TagPrefix="ns" Namespace="GhostFormNamespace" %>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+  <title>Xublimynal.com</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+	<script src="prototype.js" type="text/javascript"></script>
+	<script src="scriptaculous.js" type="text/javascript"></script>
+	<script src="unittest.js" type="text/javascript"></script>
+	<script src="scripts.js" type="text/javascript"></script>
+  <!--[if IE]>
+    <style>
+      .div1, .div2, .div3
+      {
+        height: 100%;
+      }
+    </style>
+  <![endif]-->
+</head>
+
+<body>
+
+  <div class="div1">
+  <ns:GhostForm id="mainForm" runat="server">
+  <div style="padding-left: 20px; padding-right: 20px; text-align: left; font-family: Garamond, Tahoma; font-size: 20px; font-weight: 400;">
+    <table width="650px"><tr><td align="left" style="background-color: Transparent;"><a style="text-decoration: none" href="Default.aspx" title="Home" ><asp:Label ID="lblHomepageLink" runat="server" /></a></td><td style="background-color:Transparent;" align="right"><asp:Label ID="lblLoggedIn" runat="server" Text="" /><asp:LinkButton ID="lbLogIn" runat="server" Text="Log In" OnClick="lbLogIn_Click" /></td></tr></table>
+  </div>
+    <div style="padding-top: 40px;" >
+      <asp:contentplaceholder id="ContentPlaceHolder2" runat="server">
+      </asp:contentplaceholder>
+      <br /><br />
+      <div class="whiteDiv">
+        
+          <div>
+            <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            </asp:contentplaceholder>
+          </div>
+        
+      </div>
+      <div class="footer">&#169; <asp:Label ID="lblCopyrightYear" runat="server" /> xublimynal.com</div>
+    </div>
+     </ns:GhostForm>
+  </div>
+
+</body>
+
+</html>

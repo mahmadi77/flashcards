@@ -1,0 +1,73 @@
+﻿<html>
+  <head>
+    <title>Xublimynal.com</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+
+    <!--[if IE]>
+      <style>
+        .div1, .div2, .div3
+        {
+          height: 100%;
+        }
+      </style>
+    <![endif]-->
+  </head>
+
+  <body onunload="javascript:getElementById('spnPublicLessons').innerHTML='<b>Public Lessons</b>';getElementById('spnMyStuff').innerHTML='<b>My Stuff</b>';">
+    <div class="div1">
+
+<div style="padding-left: 20px; padding-right: 20px; text-align: left; font-family: Garamond, Tahoma; font-size: 20px; font-weight: 400;">ФК</div>
+<div style="padding-top: 40px;" ><span class="font1">Flash Карточки</span><br /><br />
+<span class="font1" style="font-size: 12px;"><b>Make real flash cards from which to study</b></span></div>
+
+<br /><br />
+
+<div class="whiteDiv" >
+
+<div class="font1" style="font-size: 12px; padding-left:200px; padding-right:50px; text-align: left;">
+Not to print.  That's old school and lame.<br /><br />
+These actually <span style="color: #aaaa43"> <b>flash</b></span> at you on the screen.<br /><br />
+You can create pretty much anything you want.
+</div><br />
+            <div style="background:url('images/boxtop300.gif');width:300px;height:20;margin:0 auto; padding: 0; border: 0;"></div>
+              <div
+              onmouseover="javascript:getElementById('spnPublicLessons').innerHTML='Here are some lessons to get you started.';"
+              onmouseout= "javascript:getElementById('spnPublicLessons').innerHTML='<b>Public Lessons</b>';"
+
+              style="text-align: left;background:url('images/boxmid300.gif');width:300px;margin:0 auto; padding:0; border: 0;">
+
+                    <div style="margin-left: 20px;margin-right: 20px;padding-top:5px; text-align: center;">
+                       <a style="text-decoration: none; font-family: verdana; font-size: 11px;"
+                       href="lessons.aspx"
+                       id="spnPublicLessons"
+
+                       style="font-family: verdana; font-size: 10px"><b>Public Lessons</b></a>
+                    </div>
+
+              </div>
+            <div style="background:url('images/boxbot300.gif');width:300px;height:20px;margin: 0 auto;"></div>
+
+<br />
+            <div style="background:url('images/boxtop300.gif');width:300px;height:20;margin:0 auto; padding: 0; border: 0;"></div>
+              <div
+              onmouseover="javascript:getElementById('spnMyStuff').innerHTML='You can make your own lessons.';"
+              onmouseout= "javascript:getElementById('spnMyStuff').innerHTML='<b>My Stuff</b>';"
+              style="text-align: left;background:url('images/boxmid300.gif');width:300px;margin:0 auto; padding:0; border: 0;">
+
+                    <div style="margin-left: 20px;margin-right: 20px;padding-top:5px; text-align: center;">
+                       <a style="text-decoration: none; font-family: verdana; font-size: 11px;"
+                       href="start.aspx"
+                       id="spnMyStuff"
+
+                       style="font-family: verdana; font-size: 10px"><b>My Stuff</b></a>
+                    </div>
+
+              </div>
+            <div style="background:url('images/boxbot300.gif');width:300px;height:20px;margin: 0 auto;"></div>
+
+</div>
+<div class="footer">&#169; 2009 xublimynal.com</div>
+    </div><!-- end div1 -->
+
+  </body>
+</html>

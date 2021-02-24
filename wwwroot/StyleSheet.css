@@ -1,0 +1,11 @@
+﻿body {background: #222222; color: #7994cb; font-family: courier new; font-size: 13px;}
+a:link {color: #cccccc; text-decoration: none}
+a:visited {color: #cccccc; text-decoration: none}
+a:active {color: #cccccc; text-decoration:none}
+a:hover {color: #ffffff; text-decoration: underline}
+h1 { font-size: 20px; font-weight: bold; }
+h2 { font-size: 14px; font-weight: bold; }
+h3 { font-size: 14px; font-weight: bold; }
+.underline { text-decoration: underline; }
+.error { color: #ff0000; }
+
